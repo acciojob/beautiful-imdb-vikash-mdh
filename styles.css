@@ -1,2 +1,27 @@
+/* styles.css */
+body {
+    background-color: #121212; /* Dark background for modern look */
+    color: #ffffff; /* White text for contrast */
+    font-family: Arial, sans-serif; /* Clean font for readability */
+}
 
-/* Your CSS Code here. */
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    margin-top: 50px; /* Space from top */
+}
+
+.moviePic {
+    height: 400px; /* Fixed height for consistency */
+    width: auto; /* Maintain aspect ratio */
+    opacity: 0.9; /* Slight transparency for a modern feel */
+}
+
+.movieDetail {
+    position: relative; /* Position relative for centering */
+    top: 20px; /* Space from the poster */
+    width: 80%; /* Responsive width */
+    text-align: center; /* Center text alignment */
+    font-size: 18px; /* Larger font size for better readability */
+}
